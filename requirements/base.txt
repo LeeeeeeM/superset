@@ -9,13 +9,13 @@
     # via -r requirements/base.in
 alembic==1.13.1
     # via flask-migrate
-amqp==5.2.0
+amqp==5.3.1
     # via kombu
 apispec[yaml]==6.3.0
     # via flask-appbuilder
 apsw==3.46.0.0
     # via shillelagh
-async-timeout==4.0.3
+async-timeout==5.0.1
     # via redis
 attrs==24.2.0
     # via
@@ -26,9 +26,9 @@ babel==2.16.0
     # via flask-babel
 backoff==2.2.1
     # via apache-superset
-bcrypt==4.1.3
+bcrypt==4.2.1
     # via paramiko
-billiard==4.2.0
+billiard==4.2.1
     # via celery
 blinker==1.9.0
     # via flask
@@ -40,19 +40,19 @@ cachelib==0.9.0
     # via
     #   flask-caching
     #   flask-session
-cachetools==5.3.3
+cachetools==5.5.0
     # via google-auth
 cattrs==24.1.2
     # via requests-cache
 celery==5.4.0
     # via apache-superset
-certifi==2024.2.2
+certifi==2024.8.30
     # via requests
 cffi==1.17.1
     # via
     #   cryptography
     #   pynacl
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
     # via requests
 click==8.1.7
     # via
@@ -78,22 +78,22 @@ colorama==0.4.6
     #   flask-appbuilder
 cron-descriptor==1.4.5
     # via apache-superset
-croniter==2.0.5
+croniter==5.0.1
     # via apache-superset
-cryptography==42.0.8
+cryptography==43.0.3
     # via
     #   apache-superset
     #   paramiko
     #   pyopenssl
 defusedxml==0.7.1
     # via odfpy
-deprecated==1.2.14
+deprecated==1.2.15
     # via limits
 deprecation==2.1.0
     # via apache-superset
-dnspython==2.6.1
+dnspython==2.7.0
     # via email-validator
-email-validator==2.1.1
+email-validator==2.2.0
     # via flask-appbuilder
 et-xmlfile==2.0.0
     # via openpyxl
@@ -119,11 +119,11 @@ flask-babel==2.0.0
     # via flask-appbuilder
 flask-caching==2.3.0
     # via apache-superset
-flask-compress==1.15
+flask-compress==1.17
     # via apache-superset
-flask-jwt-extended==4.6.0
+flask-jwt-extended==4.7.1
     # via flask-appbuilder
-flask-limiter==3.7.0
+flask-limiter==3.8.0
     # via flask-appbuilder
 flask-login==0.6.3
     # via
@@ -149,19 +149,19 @@ geographiclib==2.0
     # via geopy
 geopy==2.4.1
     # via apache-superset
-google-auth==2.29.0
+google-auth==2.36.0
     # via shillelagh
 greenlet==3.0.3
     # via
     #   shillelagh
     #   sqlalchemy
-gunicorn==22.0.0
+gunicorn==23.0.0
     # via apache-superset
 hashids==1.3.1
     # via apache-superset
 holidays==0.25
     # via apache-superset
-humanize==4.9.0
+humanize==4.11.0
     # via apache-superset
 idna==3.10
     # via
@@ -169,9 +169,9 @@ idna==3.10
     #   requests
 importlib-metadata==7.1.0
     # via apache-superset
-importlib-resources==6.4.0
+importlib-resources==6.4.5
     # via limits
-isodate==0.6.1
+isodate==0.7.2
     # via apache-superset
 itsdangerous==2.2.0
     # via
@@ -181,23 +181,23 @@ jinja2==3.1.4
     # via
     #   flask
     #   flask-babel
-jsonpath-ng==1.6.1
+jsonpath-ng==1.7.0
     # via apache-superset
 jsonschema==4.17.3
     # via flask-appbuilder
-kombu==5.3.7
+kombu==5.4.2
     # via celery
 korean-lunar-calendar==0.3.1
     # via holidays
-limits==3.12.0
+limits==3.13.0
     # via flask-limiter
 llvmlite==0.43.0
     # via numba
-mako==1.3.5
+mako==1.3.6
     # via
     #   alembic
     #   apache-superset
-markdown==3.6
+markdown==3.7
     # via apache-superset
 markdown-it-py==3.0.0
     # via rich
@@ -223,7 +223,7 @@ nh3==0.2.18
     # via apache-superset
 numba==0.60.0
     # via pandas
-numexpr==2.10.1
+numexpr==2.10.2
     # via
     #   -r requirements/base.in
     #   pandas
@@ -253,7 +253,7 @@ packaging==24.2
     #   shillelagh
 pandas[excel,performance]==2.0.3
     # via apache-superset
-paramiko==3.4.0
+paramiko==3.5.0
     # via
     #   apache-superset
     #   sshtunnel
@@ -269,15 +269,15 @@ polyline==2.0.2
     # via apache-superset
 prison==0.2.1
     # via flask-appbuilder
-prompt-toolkit==3.0.44
+prompt-toolkit==3.0.48
     # via click-repl
 pyarrow==14.0.2
     # via apache-superset
-pyasn1==0.6.0
+pyasn1==0.6.1
     # via
     #   pyasn1-modules
     #   rsa
-pyasn1-modules==0.4.0
+pyasn1-modules==0.4.1
     # via google-auth
 pycparser==2.22
     # via cffi
@@ -290,7 +290,7 @@ pyjwt==2.10.0
     #   flask-jwt-extended
 pynacl==1.5.0
     # via paramiko
-pyopenssl==24.1.0
+pyopenssl==24.2.1
     # via shillelagh
 pyparsing==3.1.2
     # via apache-superset
@@ -316,7 +316,7 @@ pytz==2024.2
     #   pandas
 pyxlsb==1.0.10
     # via pandas
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via
     #   apache-superset
     #   apispec
@@ -328,7 +328,7 @@ requests==2.32.2
     #   shillelagh
 requests-cache==1.2.0
     # via shillelagh
-rich==13.7.1
+rich==13.9.4
     # via flask-limiter
 rsa==4.9
     # via google-auth
@@ -338,18 +338,17 @@ shillelagh[gsheetsapi]==1.2.18
     # via apache-superset
 shortid==0.1.2
     # via apache-superset
-simplejson==3.19.2
+simplejson==3.19.3
     # via apache-superset
 six==1.16.0
     # via
-    #   isodate
     #   prison
     #   python-dateutil
     #   url-normalize
     #   wtforms-json
-slack-sdk==3.27.2
+slack-sdk==3.33.4
     # via apache-superset
-sqlalchemy==1.4.52
+sqlalchemy==1.4.54
     # via
     #   alembic
     #   apache-superset
@@ -364,7 +363,7 @@ sqlalchemy-utils==0.38.3
     #   flask-appbuilder
 sqlglot==25.24.0
     # via apache-superset
-sqlparse==0.5.0
+sqlparse==0.5.2
     # via apache-superset
 sshtunnel==0.4.0
     # via apache-superset
@@ -377,10 +376,12 @@ typing-extensions==4.12.2
     #   cattrs
     #   flask-limiter
     #   limits
+    #   rich
     #   shillelagh
 tzdata==2024.2
     # via
     #   celery
+    #   kombu
     #   pandas
 url-normalize==1.4.3
     # via requests-cache
@@ -404,7 +405,7 @@ werkzeug==3.1.3
     #   flask-appbuilder
     #   flask-jwt-extended
     #   flask-login
-wrapt==1.16.0
+wrapt==1.17.0
     # via deprecated
 wtforms==3.2.1
     # via
@@ -420,7 +421,7 @@ xlsxwriter==3.0.9
     # via
     #   apache-superset
     #   pandas
-zipp==3.19.0
+zipp==3.21.0
     # via importlib-metadata
-zstandard==0.22.0
+zstandard==0.23.0
     # via flask-compress
